@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.z{
+			width: 1560px;
+			height: 581px;
+			background: url(tupian/zuoye1.png) no-repeat;
+		}
+		.z1{
+			width: 675px
+			height: 46px;
+			position: absolute;
+			top: 127px;	
+			margin-left: 445px;
+			border-radius: 23px;
+			background-color: white;
+		}
+		.z1 li a:hover{
+			padding-bottom: 10px;
+			border-bottom:3px solid blue;
+		}
+		.z2 {
+			display: inline-block;
+			float: left;
+			height:46px;
+			padding: 0 30px;
+			line-height: 45px;
+			background: url(tupian/shu.png) no-repeat right center; 
+		}
+		.z21 {
+			color: black;
+			text-decoration: none;
+		}
+		#z a:hover{
+			border-bottom:2px solid blue;
+		}
+		.x{
+			width: 1560px;
+			height: 809px;	 
+			background: url(tupian/zuoye2.png) no-repeat;
+		}
+		.x1{
+			line-height: 33px;
+			width: 150px;
+			height: 350px;
+			margin-top: 196px;
+			margin-left: 246px;
+			display: inline-block;
+			float: left;
+		}
+		.x12{
+			width: 150px;
+			height: 150px;
+			display: inline-block;
+			float: left;
+			background: url(tupian/si.png) no-repeat;
+		}
+		.x11{
+			color: #c8c8c8;
+			text-decoration: none;
+		}
+		.x13{
+			text-align: center;
+		}
+		.x2{
+			line-height: 33px;
+			width: 150px;
+			height: 350px;
+			margin-left: 160px;
+			margin-top: 196px;
+			display: inline-block;
+			float: left;
+			background-color: white;
+		}
+		.x21{
+			width: 150px;
+			height: 150px;
+			display: inline-block;
+			float: left;
+			background: url(tupian/si1.png) no-repeat;
+		}
+		.x22{
+			width: 150px;
+			height: 150px;
+			display: inline-block;
+			float: left;
+			background: url(tupian/si2.png) no-repeat;
+		}
+		.x23{
+			width: 150px;
+			height: 150px;
+			display: inline-block;
+			float: left;
+			background: url(tupian/si4.png) no-repeat;
+		}
+		.x24{
+			width: 150px;
+			height: 150px;
+			display: inline-block;
+			float: left;
+			background: url(tupian/si5.png) no-repeat;
+		}
+		.x25{
+			width: 150px;
+			height: 150px;
+			display: inline-block;
+			float: left;
+			background: url(tupian/si3.png) no-repeat;
+		}
+		.x26{
+			width: 150px;
+			height: 150px;
+			display: inline-block;
+			float: left;
+			background: url(tupian/si6.png) no-repeat;
+		}
+		.x27{
+			width: 150px;
+			height: 150px;
+			display: inline-block;
+			float: left;
+			background: url(tupian/si7.png) no-repeat;
+		}
+		.x3{
+			width: 150px;
+			height: 185px;
+			margin-top: 70px;
+			margin-left: 246px;
+			display: inline-block;
+			float: left;
+			background-color: white;
+		}
+		.x4{
+			width: 150px;
+			height: 185px;
+			margin-top: 70px;
+			margin-left: 160px;
+			display: inline-block;
+			float: left;
+			background-color: white;
+		}
+		.c{
+			width: 1560px;
+			height: 712px;
+			background: url(tupian/zuoye3.png) no-repeat;
+		}
+		.c1{
+			width: 231px;
+			height: 300px;
+			margin-top: 215px;
+			margin-left: 240px;
+			margin-bottom: 80px;
+			display: inline-block;
+			background: url(tupian/zuoye12.png) no-repeat;
+		}
+		.c2{
+			width: 231px;
+			height: 300px;
+			margin-top: 215px;
+			margin-left: 51px;
+			margin-bottom: 80px;
+			display: inline-block;
+			background: url(tupian/zuoye13.png) no-repeat;
+		}
+		.c3{
+			width: 231px;
+			height: 300px;
+			margin-top: 215px;
+			margin-left: 51px;
+			margin-bottom: 80px;
+			display: inline-block;
+			background: url(tupian/zuoye14.png) no-repeat;
+		}
+		.c4{
+			width: 231px;
+			height: 300px;
+			margin-top: 215px;
+			margin-left: 51px;
+			margin-bottom: 80px;
+			display: inline-block;
+			background: url(tupian/zuoye15.png) no-repeat;
+		}
+		.c5 button{
+			color: white;
+			width: 230px;
+			height: 50px;
+			border-radius: 25px;		
+			margin-left: 663px;
+			display: inline-block;
+			border: 1px solid white;
+			background-color: transparent;
+		}
+
+		.v{
+			width: 1560px;
+			height: 908px;
+			background: url(tupian/zuoye4.png) no-repeat;
+		}
+		.v1 button{
+			color: #8192c5;
+			width: 140px;
+			height: 40px; 
+			border-radius: 20px;
+			display: inline-block;
+			background-color: transparent;
+			border: 1px solid #8192c5;
+			margin-top: 420px;
+			margin-left: 805px; 
+		}
+		.v2{
+			width: 1300px;
+			height: 257px;
+			line-height: 40px;
+			margin-top: 102px;
+			margin-left: 220px;
+			background-color: white;
+		}
+		.v21{
+			float: left;
+			margin-left: 45px;
+		}
+		.v22{
+			border-bottom: 1px dashed #dcdcdc;
+		}
+		.b{
+			width: 1560px;
+			height: 102px;
+			background-color: #f5f5f5;
+		}
+		.b1{
+			height: 47px;
+			width: 300px;
+			margin-top: 28px;
+			margin-left: 229px;
+			float: left;
+			display: inline-block;
+			background: url(tupian/zuoye9.png) no-repeat;
+		}
+		.b2{
+			height: 47px;
+			width: 300px;
+			margin-top: 28px;
+			/*margin-left: 229px;*/
+			float: left;
+			border-left: 1px solid black;
+			display: inline-block;
+			background: url(tupian/zuoye8.png) no-repeat;
+		}
+		.b3{
+			height: 47px;
+			width: 300px;
+			margin-top: 28px;
+			/*margin-left: 229px;*/
+			float: left;
+			border-left: 1px solid black;
+			display: inline-block;
+			background: url(tupian/zuoye10.png) no-repeat;
+		}
+		.b4{
+			height: 47px;
+			width: 300px;
+			margin-top: 28px;
+			/*margin-left: 229px;*/
+			float: left;
+			border-left: 1px solid black;
+			display: inline-block;
+			background: url(tupian/zuoye11.png) no-repeat;
+		}
+		.n{
+			width: 1560px;
+			height: 261px;
+			background-color: #323232;
+		}
+		.n1{
+			width: 80px;
+			height: 145px;
+			margin-top: 75px;
+			margin-left: 180px;
+			line-height: 30px;
+			display: inline-block;
+			float: left;
+			background-color: #323232;
+		}
+		.n2 {
+			width: 80px;
+			height: 145px;
+			margin-top: 75px;
+			margin-left: 114px;
+			line-height: 30px;
+			display: inline-block;
+			float: left;
+			background-color: #323232;
+			color: red;
+		}
+		.n3{
+			width: 235px;
+			height:146px;
+			margin-left:100px;
+			margin-top: 72px;
+			display: inline-block;
+			float: left;
+			background: url(tupian/zuoye6.png);
+		}
+		.n4{
+			width: 249px;
+			height:139px;
+			margin-top: 75px;
+			display: inline-block;
+			border-left: 1px solid #9c9c9c;
+			float: left;
+			background: url(tupian/zuoye5.png);
+		}
+		.n11 {
+			color: #ffffff;
+			text-decoration: none;
+		}
+		.m{
+			width: 1560px;
+			height: 125px;
+			border-top:1px solid #777777;
+			background-color: #323232;
+			text-align: center;
+		}
+		.m1{
+			margin-left: 402px;
+			margin-top: 38px;
+		}
+		.m6{
+			height: 17px;
+			width: 275px;
+			margin-top: 24px;
+			margin-left: 643px;
+			display: inline-block;
+			float: left;
+			background: url(tupian/zuoye7.png);
+		}
+		.m7{
+			display: inline-block;
+			color: #ffffff;
+			float: left;
+			height:46px;
+			padding: 0 10px;
+			line-height: 45px;
+			background: url(tupian/shu.png) no-repeat right center; 
+		}
+		.ws a{
+			color: #ffffff;
+		}
+	</style>
+</head>
+<body>
+	<div class="z">
+		<div class="z1">
+			 <li class="z2"><a href="" class="z21" id="z">首页</a></li>
+			 <li class="z2"><a href="" class="z21" id="z">关于我们</a></li>
+			 <li class="z2"><a href="" class="z21" id="z">中智服务</a></li>
+			 <li class="z2"><a href="" class="z21" id="z">解决方案</a></li>
+			 <li class="z2"><a href="" class="z21" id="z">最新资讯</a></li>
+			 <li class="z2"><a href="" class="z21" id="z">联系我们</a></li>
+		</div>
+	</div>
+	<div class="x">
+		<div class="x1">
+			<div class="x12"></div>
+			<div>
+				<p class="x13">工商代理</p>
+				<ul class="x11">
+					<li><a href="" class="x11">公司注册</a></li>
+					<li><a href="" class="x11">公司注册地址</a></li>
+					<li><a href="" class="x11">分公司注册</a></li>
+					<li><a href="" class="x11">外资注册</a></li>
+					<li><a href="" class="x11">股权变更</a></li>
+					<li><a href="" class="x11">公司注销</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="x2">
+			<div class="x21"></div>
+			<div>
+				<p class="x13">财务代理</p>
+				<ul class="x11">
+					<li><a href="" class="x11">代理记账</a></li>
+					<li><a href="" class="x11">税务筹划</a></li>
+					<li><a href="" class="x11">审计服务</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="x2">
+			<div class="x22"></div>
+			<div>
+				<p class="x13">资质服务</p>
+				<ul class="x11">
+					<li><a href="" class="x11">各类许可证</a></li>
+					<li><a href="" class="x11">资质审批</a></li>
+					<li><a href="" class="x11">高新企业</a></li>
+					<li><a href="" class="x11">商标专利</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="x2">
+			<div class="x23"></div>
+			<div>
+				<p class="x13">特色服务</p>
+				<ul class="x11">
+					<li><a href="" class="x11"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="x3">
+			<div class="x24"></div>
+			<div>
+				<p class="x13">公积金社保代理</p>
+			</div>
+		</div>
+		<div class="x4">
+			<div class="x25"></div>
+			<div>
+				<p class="x13">办公室租赁</p>
+			</div>
+		</div>
+		<div class="x4">
+			<div class="x26"></div>
+			<div>
+				<p class="x13">营业执照转让</p>
+			</div>
+		</div>
+		<div class="x4">
+			<div class="x27"></div>
+			<div>
+				<p class="x13">法律服务</p>
+			</div>
+		</div>
+	</div>
+	<div class="c">
+		<div class="c1"></div>
+		<div class="c2"></div>
+		<div class="c3"></div>
+		<div class="c4"></div>
+		<div class="c5">
+			<button>
+				了解更多>>
+			</button>
+		</div>
+	</div>
+	<div class="v">
+		<div class="v1">
+			<button>了解情况</button>
+		</div>
+		<div class="v2">
+			<div class="v21">
+				<div class="v22">
+					<a href="" class="x11">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</a>
+				</div>
+				<div class="v22">
+					<a href="" class="x11">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</a>
+				</div>
+				<div class="v22">
+					<a href="" class="x11">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</a>
+				</div>
+				<div class="v22">
+					<a href="" class="x11">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</a>
+				</div>
+				<div class="v22">
+					<a href="" class="x11">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</a>
+				</div>
+				<div class="v22">
+					<a href="" class="x11">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</a>
+				</div>
+			</div>
+			<div class="v21">
+				<div class="v22">
+					<a href="" class="x11">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</a>
+				</div>
+				<div class="v22">
+					<a href="" class="x11">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</a>
+				</div>
+				<div class="v22">
+					<a href="" class="x11">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</a>
+				</div>
+				<div class="v22">
+					<a href="" class="x11">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</a>
+				</div>
+				<div class="v22">
+					<a href="" class="x11">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</a>
+				</div>
+				<div class="v22">
+					<a href="" class="x11">为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="b">
+		<div class="b1"></div>
+		<div class="b2"></div>
+		<div class="b3"></div>
+		<div class="b4"></div>
+	</div>
+	<div class="n">
+		<div class="n1">
+			<p class="n11">中智信元</p>
+			<a href="" class="n11">加入我们</a>
+			<a href="" class="n11">联系我们</a>
+			<a href="" class="n11">最新动态</a>
+		</div>
+		<div class="n2">
+			<p class="n11">中智信元</p>
+			<a href="" class="n11">加入我们</a>
+			<a href="" class="n11">联系我们</a>
+			<a href="" class="n11">最新动态</a>
+		</div>
+		<div class="n2" class="n11">
+			<p class="n11">中智信元</p>
+			<a href="" class="n11">加入我们</a>
+			<a href="" class="n11">联系我们</a>
+			<a href="" class="n11">最新动态</a>
+		</div>
+		<div class="n2">
+			<p class="n11">中智信元</p>
+			<a href="" class="n11">加入我们</a>
+			<a href="" class="n11">联系我们</a>
+			<a href="" class="n11">最新动态</a>
+		</div>
+		<div class="n3"></div>
+		<div class="n4"></div>
+	</div>
+	<div class="m">
+		<div class="m1">
+			<li class="m7">首页</li>
+			<li class="m7">工商代理</li>
+			<li class="m7">财务记账</li>
+			<li class="m7">股权交易与变更</li>
+			<li class="m7">企业贷款</li>
+			<li class="m7">办公室租赁</li>
+			<li class="m7">社保公积金代理</li>
+			<li class="m7">法律服务</li>
+		</div>
+		<div class="m6"></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+
+body{
+	font-size:2em;
+	font-weight:;
+	font-family:'华文彩云';
+	font-style:italic;
+}
+div{
+	text-indent: 2em;
+	text-align: center;
+	line-height: 1.5em;//行高问
+	color: rgb(128,128,128);
+	text-decoration: none;
+	text-transform: none;
+}
+p{
+	color: #ff0000;
+	text-decoration: overline;
+	text-transform: uppercase;
+}
+ul{
+	text-decoration: underline;
+	text-transform: lowercase;
+}
+ol{
+	text-decoration: line-through;
+	text-transform: capitalize;
+}
+a:link{
+	color: green;
+}
+a:visited{
+	color: pink;
+}
+
+a:hover{
+	text-decoration-line: line-through;
+}
+a:active{
+	color: #232323;
+}
